@@ -27,7 +27,7 @@
                                         <rect key="frame" x="74.333333333333329" y="533" width="212.33333333333337" height="150"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0h-s9-ZFv">
-                                                <rect key="frame" x="0.0" y="0.0" width="212.33333333333334" height="65.333333333333329"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="212.33333333333334" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Who am I?"/>
                                                 <connections>
@@ -35,18 +35,26 @@
                                                     <action selector="didClickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1eN-AE-HGT"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fX-zW-IoW">
-                                                <rect key="frame" x="0.0" y="73.333333333333371" width="212.33333333333334" height="34.333333333333343"/>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AXD-Xi-dSr">
+                                                <rect key="frame" x="0.0" y="42.333333333333371" width="212.33333333333334" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="What is my Background?"/>
+                                                <connections>
+                                                    <action selector="didClickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MkZ-IV-dwD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fX-zW-IoW">
+                                                <rect key="frame" x="0.0" y="84.666666666666629" width="212.33333333333334" height="34.333333333333343"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="What is Shiva?"/>
                                                 <connections>
                                                     <action selector="didClickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fr5-dh-UZK"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="2" contentMode="scaleToFill" verticalHuggingPriority="252" verticalCompressionResistancePriority="748" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCc-Qy-m9q">
-                                                <rect key="frame" x="0.0" y="115.66666666666661" width="212.33333333333334" height="34.333333333333329"/>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" verticalHuggingPriority="252" verticalCompressionResistancePriority="748" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCc-Qy-m9q">
+                                                <rect key="frame" x="0.0" y="127" width="212.33333333333334" height="23"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="What are my powers?"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="What is Shakti?"/>
                                                 <connections>
                                                     <action selector="didClickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ptv-Tv-YGN"/>
                                                 </connections>
@@ -104,7 +112,7 @@
                                             <constraint firstAttribute="height" constant="200" id="XYw-uE-6Aa"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ng1-pU-yce">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ng1-pU-yce">
                                         <rect key="frame" x="0.0" y="299" width="361" height="400"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="400" id="8hV-9m-y78"/>
