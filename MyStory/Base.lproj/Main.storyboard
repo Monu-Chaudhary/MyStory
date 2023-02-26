@@ -1,24 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1Th-wV-WOo">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Shiva Shakti-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyStory" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="74" translatesAutoresizingMaskIntoConstraints="NO" id="7Or-JU-r4R" userLabel="Main Stack View">
+                                <rect key="frame" x="16" y="119" width="361" height="683"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shivashakti" translatesAutoresizingMaskIntoConstraints="NO" id="Kp6-Ic-3B0">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="459"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="HPy-h2-inC">
+                                        <rect key="frame" x="74.333333333333329" y="533" width="212.33333333333337" height="150"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0h-s9-ZFv">
+                                                <rect key="frame" x="0.0" y="0.0" width="212.33333333333334" height="65.333333333333329"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Who am I?"/>
+                                                <connections>
+                                                    <action selector="didButtonClick:" destination="jhq-dA-NdQ" eventType="touchUpInside" id="qQq-iP-oV9"/>
+                                                    <action selector="didClickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1eN-AE-HGT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fX-zW-IoW">
+                                                <rect key="frame" x="0.0" y="73.333333333333371" width="212.33333333333334" height="34.333333333333343"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="What is my Background?"/>
+                                                <connections>
+                                                    <action selector="didClickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fr5-dh-UZK"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" verticalHuggingPriority="252" verticalCompressionResistancePriority="748" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCc-Qy-m9q">
+                                                <rect key="frame" x="0.0" y="115.66666666666661" width="212.33333333333334" height="34.333333333333329"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="What are my powers?"/>
+                                                <connections>
+                                                    <action selector="didClickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ptv-Tv-YGN"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="Abe-hz-YWc"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7Or-JU-r4R" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="CTV-7Q-7c0"/>
+                            <constraint firstItem="7Or-JU-r4R" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="16" id="EB5-MU-bcM"/>
+                            <constraint firstAttribute="trailing" secondItem="7Or-JU-r4R" secondAttribute="trailing" constant="16" id="K6E-CL-wNV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7Or-JU-r4R" secondAttribute="bottom" constant="16" id="Z8e-e0-ORC"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Shiva Shakti" id="cRv-wf-a8f"/>
+                    <connections>
+                        <segue destination="lif-Zw-uvp" kind="show" identifier="detailSegue" id="qYJ-XD-HPl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="jhq-dA-NdQ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
+            <point key="canvasLocation" x="980.91603053435108" y="-34.507042253521128"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="sRI-mU-flN">
+            <objects>
+                <viewController id="lif-Zw-uvp" customClass="DetailViewController" customModule="MyStory" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UBF-Tz-xOT" customClass="Detail">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="dmU-Yi-MWI">
+                                <rect key="frame" x="16" y="119.00000000000003" width="361" height="300.66666666666674"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDJ-TM-Qyj">
+                                        <rect key="frame" x="160" y="0.0" width="41.333333333333343" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hz1-Ad-ESk">
+                                        <rect key="frame" x="60.666666666666686" y="55.333333333333343" width="240" height="190"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ng1-pU-yce">
+                                        <rect key="frame" x="160" y="280.33333333333331" width="41.333333333333343" height="20.333333333333314"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4qo-g6-IU2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dmU-Yi-MWI" firstAttribute="top" secondItem="4qo-g6-IU2" secondAttribute="top" constant="16" id="FET-Xk-enW"/>
+                            <constraint firstItem="4qo-g6-IU2" firstAttribute="bottom" secondItem="dmU-Yi-MWI" secondAttribute="bottom" constant="398.32999999999998" id="YrA-Ir-WXE"/>
+                            <constraint firstItem="dmU-Yi-MWI" firstAttribute="leading" secondItem="4qo-g6-IU2" secondAttribute="leading" constant="16" id="iCf-oK-r39"/>
+                            <constraint firstItem="4qo-g6-IU2" firstAttribute="trailing" secondItem="dmU-Yi-MWI" secondAttribute="trailing" constant="16" id="rtK-7q-Bv0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="8Hw-nx-TEF"/>
+                    <connections>
+                        <outlet property="descriptionlabel" destination="Ng1-pU-yce" id="Php-1U-dne"/>
+                        <outlet property="detailImageView" destination="Hz1-Ad-ESk" id="A6e-dX-gdd"/>
+                        <outlet property="titleLabel" destination="hDJ-TM-Qyj" id="tdn-iY-YF3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FZZ-Sg-9Eu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1799.2366412213739" y="-20.422535211267608"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gTX-rb-Nm3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1Th-wV-WOo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="epv-Qm-YXB">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="3sZ-MV-KXo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="48n-kO-coy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="54.198473282442748" y="-34.507042253521128"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="shivashakti" width="533" height="800"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

@@ -13,6 +13,8 @@
 		979D315329AA7A2500183AC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979D315129AA7A2500183AC4 /* Main.storyboard */; };
 		979D315529AA7A2600183AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979D315429AA7A2600183AC4 /* Assets.xcassets */; };
 		979D315829AA7A2600183AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979D315629AA7A2600183AC4 /* LaunchScreen.storyboard */; };
+		979D316029AA89D700183AC4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979D315F29AA89D700183AC4 /* DetailViewController.swift */; };
+		979D316B29AAD72E00183AC4 /* ShivaShakti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979D316A29AAD72E00183AC4 /* ShivaShakti.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		979D315429AA7A2600183AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		979D315729AA7A2600183AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		979D315929AA7A2600183AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979D315F29AA89D700183AC4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		979D316A29AAD72E00183AC4 /* ShivaShakti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShivaShakti.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				979D314B29AA7A2500183AC4 /* AppDelegate.swift */,
 				979D314D29AA7A2500183AC4 /* SceneDelegate.swift */,
 				979D314F29AA7A2500183AC4 /* ViewController.swift */,
+				979D316A29AAD72E00183AC4 /* ShivaShakti.swift */,
 				979D315129AA7A2500183AC4 /* Main.storyboard */,
+				979D315F29AA89D700183AC4 /* DetailViewController.swift */,
 				979D315429AA7A2600183AC4 /* Assets.xcassets */,
 				979D315629AA7A2600183AC4 /* LaunchScreen.storyboard */,
 				979D315929AA7A2600183AC4 /* Info.plist */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				979D316B29AAD72E00183AC4 /* ShivaShakti.swift in Sources */,
 				979D315029AA7A2500183AC4 /* ViewController.swift in Sources */,
 				979D314C29AA7A2500183AC4 /* AppDelegate.swift in Sources */,
 				979D314E29AA7A2500183AC4 /* SceneDelegate.swift in Sources */,
+				979D316029AA89D700183AC4 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
