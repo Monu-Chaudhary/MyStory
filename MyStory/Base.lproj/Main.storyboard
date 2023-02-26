@@ -24,37 +24,37 @@
                                         <rect key="frame" x="0.0" y="0.0" width="361" height="459"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="HPy-h2-inC">
-                                        <rect key="frame" x="74.333333333333329" y="533" width="212.33333333333337" height="150"/>
+                                        <rect key="frame" x="51.333333333333343" y="533" width="258.66666666666663" height="150"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0h-s9-ZFv">
-                                                <rect key="frame" x="0.0" y="0.0" width="212.33333333333334" height="34.333333333333336"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="258.66666666666669" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Who am I?"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="What is Shiva?"/>
                                                 <connections>
                                                     <action selector="didButtonClick:" destination="jhq-dA-NdQ" eventType="touchUpInside" id="qQq-iP-oV9"/>
                                                     <action selector="didClickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1eN-AE-HGT"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AXD-Xi-dSr">
-                                                <rect key="frame" x="0.0" y="42.333333333333371" width="212.33333333333334" height="34.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="42.333333333333371" width="258.66666666666669" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="What is my Background?"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="What is Shakti?"/>
                                                 <connections>
                                                     <action selector="didClickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MkZ-IV-dwD"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fX-zW-IoW">
-                                                <rect key="frame" x="0.0" y="84.666666666666629" width="212.33333333333334" height="34.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="84.666666666666629" width="258.66666666666669" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="What is Shiva?"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="What is Shiva Shakti?"/>
                                                 <connections>
                                                     <action selector="didClickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fr5-dh-UZK"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" verticalHuggingPriority="252" verticalCompressionResistancePriority="748" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCc-Qy-m9q">
-                                                <rect key="frame" x="0.0" y="127" width="212.33333333333334" height="23"/>
+                                                <rect key="frame" x="0.0" y="127" width="258.66666666666669" height="23"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="What is Shakti?"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Why is Shiva Shakti Important?"/>
                                                 <connections>
                                                     <action selector="didClickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ptv-Tv-YGN"/>
                                                 </connections>

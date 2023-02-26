@@ -9,10 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let about = ShivaShakti(name: "Shiva Shakti", image: UIImage(named: "moon")!, location: "Himalayas", title: "What is Shiva?", description: "I am a devine power who lives on Himalayas.  I wear tiger skin around my waist. I have snake rapped around my neck and Ganga - holy water fountain originating from my hair. I have a damaru on my one hand and a trishul on my other hand.")
-    let background = ShivaShakti(name: "Shiva Shakti", image: UIImage(named: "moon")!, location: "Himalayas", title: "What am I known as?", description: "I am known as Mahadev - God of Gods. I live a ascetic life away from all the materialistic pleasures. I am also called Bholenath - the kind God because it is easy to please me and I am very much generoug towards my devotees.")
-    let shiva = ShivaShakti(name: "Shiva Shakti", image: UIImage(named: "moon")!, location: "Himalayas", title: "What is Shiva?", description: "Shiva is the embodument of consciousness. Shiva is the stillness, the gap between breaths, the emtyness, and all that is formless. Shiva is pure potential where all things can manifest.")
-    let shakti = ShivaShakti(name: "Shiva Shakti", image: UIImage(named: "moon")!, location: "Himalayas", title: "What is Shakti?", description: "Shakti is the power that fuels everything. She is the feminine energy, the fire, and all that manifests.")
+    let shiva = ShivaShakti(image: UIImage(named: "shiva")!, title: "What is Shiva?", description: "Shiva is the embodument of consciousness. Shiva is the stillness, the gap between breaths, the emtyness, and all that is formless. Shiva is pure potential where all things can manifest.")
+    let shakti = ShivaShakti(image: UIImage(named: "shakti")!, title: "What is Shakti?", description: "Shakti is the power that fuels everything. She is the feminine energy, the fire, and all that manifests.")
+    let shivashakti = ShivaShakti(image: UIImage(named: "shiva-shakti")!, title: "What is Shiva Shakti?", description: "Shiva Shakti are two complementary forces of the universe that creates balance and harmony. Shiva  It depicts nirvana - union of consciousness with energy.")
+    let importance = ShivaShakti(image: UIImage(named: "nirvana")!, title: "Why is Shiva Shakti important?", description: "Shakti needs Shiva to remain grounded, otherwise she becomes chaotic. Shiva without Shakti is inert and sterile. Shiva and shakti complete each other.")
 
     
     var contexts: [ShivaShakti] = []
@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        contexts = [about, background, shiva, shakti]
+        contexts = [shiva, shakti, shivashakti, importance]
     }
 
     @IBAction func didClickButton(_ sender: UIButton) {
