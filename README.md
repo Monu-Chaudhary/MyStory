@@ -17,6 +17,14 @@ The following **required** functionality is completed:
 - ✅ Users are able to see at least 3 context items
 - ✅ Users are able to tap into each context item and see detail view contains information about each item
  
+The following **optional** features are not implemented:
+
+- ❌ Improve and customize the user interface through styling and coloring
+- ❌ Allow users to scroll when context items are off-screen (table view implemention)
+
+The following **additional** features are not implemented:
+
+- ❌ List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
@@ -27,7 +35,7 @@ Here's a walkthrough of implemented user stories:
 <img src='./walkthrough-landscape.gif' title='Video Walkthrough Landscape' width='' alt='Video Walkthrough landscape' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with Kap. 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -36,7 +44,7 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
-- fixing the autolayout for different layouts (potrait and landscape)
+- Adding constraints and fixing the autolayout for different layouts (potrait and landscape)
 
 ## License
 
