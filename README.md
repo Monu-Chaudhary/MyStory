@@ -32,7 +32,9 @@ Here's a walkthrough of implemented user stories:
 
 <img src='./walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+<!--
 <img src='./walkthrough-landscape.gif' title='Video Walkthrough Landscape' width='' alt='Video Walkthrough landscape' />
+-->
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap. 
